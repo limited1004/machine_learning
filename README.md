@@ -65,7 +65,7 @@
 
 Будем проверять результаты работы на 10, 75, 230, 275 шаге стохастического градиентного спуска. В реузльтате получим:
 
-![](https://github.com/limited1004/machine_learning/blob/master/perceptron.png)
+![](https://github.com/limited1004/machine_learning/blob/master/imgs/perceptron.png)
 
 Линия на графике - раздиляющая гиперплоскость. Оптимум достигается при 275'ом шаге.
 В результате получили веса, равные w_1 = -102.9, w_2 = 152.1, w_3 = 119.
