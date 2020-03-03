@@ -8,7 +8,7 @@
 Для выбора оптимального k используют метод скользащего контроля (LOO).
 Применив kNN и LOO к датасету Ириса Фишера получим результат:
 
-![](https://github.com/limited1004/machine_learning/blob/master/imgs/LOO_knn.png)
+![](https://github.com/limited1004/machine_learning/imgs/LOO_knn.png)
 
 
 Видно, что лучишй результат получаем при k = 6, с оценкой ошибки равной 0.33, что равно 96% успешных классификаций.
