@@ -35,11 +35,11 @@
 Будем полагать, что все объекы описываются n числовыми признаками. Обозначим через ![equation](http://latex.codecogs.com/gif.latex?x=(\xi_1,...,\xi_n&space;)), произвольный элемент пространства объектов ![equation](http://latex.codecogs.com/gif.latex?X&space;=&space;\mathbb{R}^n,&space;\varepsilon&space;_i=f_i(x)). Предположим, что все признаки ![equation](http://latex.codecogs.com/gif.latex?f_1,...,f_n) являются независимыми случайными величинами. Следовательно, функции правдоподобия классов представимы в виде,![equation](http://latex.codecogs.com/gif.latex?p_y(x)=p_{y1}(\xi_1)...p_{yn}(\xi_n),&space;y\epsilon&space;Y) где ![equation](http://latex.codecogs.com/gif.latex?p_{yj}(\xi_j)) - плотность распределений значений jго признака для класса y. Оценивать n одномерных плотностей гораздо проще, чем одну n-мерную плотность. Однако данное предположение крайне редко работает на практике, поэтому алгоритмы, использующий его, называют наивным байесовким методом.
 Произведем построение алогритма на модельной выборке.
 Получим линейноразделимое мн-во признаков:
-![](https://github.com/limited1004/machine_learning/blob/master/imgs/data_bayes.png)
+![](https://github.com/limited1004/machine_learning/blob/master/r_studio/naive_dots.png)
 
 И после приминения классификатора получим карту классификации:
 
-![](https://github.com/limited1004/machine_learning/blob/master/imgs/map_bayes.png)
+![](https://github.com/limited1004/machine_learning/blob/master/r_studio/naive_map.png)
 
 Плюсы наивного байесовского классификатора:
 
