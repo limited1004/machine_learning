@@ -66,4 +66,4 @@
 
 Линия на графике - разделяющая гиперплоскость. Оптимум достигается на 43'ом шаге.
 Веса получились равны: w_1 = 3.24, w_2 = -1.7
-https://github.com/limited1004/machine_learning/blob/master/r_studio/adaline_hebb.png
+![]https://github.com/limited1004/machine_learning/blob/master/r_studio/adaline_hebb.png
