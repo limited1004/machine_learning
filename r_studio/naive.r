@@ -60,20 +60,20 @@ main <- function(objectCounter = 300){
   muh2 <- get_mu_with_hat(x2)         
   sigma1 <- get_sigma_with_hat(x1, muh1)
   sigma2 <- get_sigma_with_hat(x2, muh2)
-  
-  # x1 <- -13;
-  # while(x1 < 15){
-  #   x2 <- -5;
-  #   while(x2 < 9){
-  #     class <- 0;
-  #     res1 <- naiv(c(x1, x2), muh1, sigma1, 1, 0.5)
-  #     res2 <- naiv(c(x1, x2), muh2, sigma2, 1, 0.5)
-  #     color <- ifelse(res1 > res2, colors[1], colors[2])
-  #     points(x1, x2, pch = 21, col=color, asp = 1)
-  #     x2 <- x2 + 0.2
-  #   }
-  #   x1 <- x1 + 0.2
-  # }
+
+  x1 <- -13;
+  while(x1 < 15){
+    x2 <- -5;
+    while(x2 < 9){
+      class <- 0;
+      res1 <- naiv(c(x1, x2), muh1, sigma1, 1, 0.5)
+      res2 <- naiv(c(x1, x2), muh2, sigma2, 1, 0.5)
+      color <- ifelse(res1 > res2, colors[1], colors[2])
+      points(x1, x2, pch = 21, col=color, asp = 1)
+      x2 <- x2 + 0.2
+    }
+    x1 <- x1 + 0.2
+  }
   print(quality(xl, muh1, sigma1, muh2, sigma2))
 }
 main()
