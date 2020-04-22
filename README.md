@@ -63,17 +63,7 @@
 ![equation](http://latex.codecogs.com/gif.latex?$$Q(w)=&space;\sum^m_{i=1}{(a(x_i,w)-y_i)^2}\rightarrow&space;min_w$$).
 Построим алгоритм на классификации ирисов Фишера, с классами virginica и versicolo по 3 и 4 параметрам datafram'а. Проверим 
 работу алгоритма на 2,5,10 и 43 шагах стохастического градиента. Получим: 
-![](https://github.com/limited1004/machine_learning/blob/master/imgs/adadline_result.png)
 
 Линия на графике - разделяющая гиперплоскость. Оптимум достигается на 43'ом шаге.
 Веса получились равны: w_1 = 3.24, w_2 = -1.7
-
-#### Перцептрон Розенблата
-Будем ипсользовать virginica и versicolor. По 3 и 4 параметрам datafram'а
-
-Будем проверять результаты работы на 10, 75, 230, 275 шаге стохастического градиентного спуска. В реузльтате получим:
-
-![](https://github.com/limited1004/machine_learning/blob/master/imgs/perceptron.png)
-
-Линия на графике - раздиляющая гиперплоскость. Оптимум достигается при 275'ом шаге.
-В результате получили веса, равные w_1 = -102.9, w_2 = 152.1, w_3 = 119.
+https://github.com/limited1004/machine_learning/blob/master/r_studio/adaline_hebb.png
